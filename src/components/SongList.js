@@ -27,7 +27,6 @@ class SongList extends Component {
 }
 
 const mapStateToProps = state => {
-  console.log("TCL: state", state);
   // This object will be in this.props
   return { songs: state.songs };
 };
